@@ -2,6 +2,7 @@
     <header class="home-bg"></header>
 
     <main class="container">
+        <p class="mt-5 fs-5">Vous avez besoin d'un site web pour commercialiser votre activité de photographe? Nous sommes votre solution. Choisissez un template parmi + de 10. Choisissez votre serveur et l'espace de stockage dont vous aurez besoin. En moins de 10 minutes, votre site sera en ligne !</p>
         <div class="d-flex justify-content-center mt-5">
             <router-link
             to="/"

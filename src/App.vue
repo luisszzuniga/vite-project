@@ -3,8 +3,14 @@
   <router-view></router-view>
 </template>
 
-<script setup>
+<script>
   import Navbar from './components/Navbar.vue';
+
+  export default {
+    components: {
+      Navbar
+    }
+  }
 </script>
 
 <style>
@@ -33,5 +39,13 @@ body
 .bg-gray
 {
   background-color: #D9D9D9;
+}
+
+.banner h1
+{
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 25px 0;
 }
 </style>

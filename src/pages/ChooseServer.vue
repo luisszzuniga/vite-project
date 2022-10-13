@@ -1,9 +1,23 @@
 <template>
-    <h1>test</h1>
+    <div class="banner bg-gray">
+        <div class="container">
+            <h1>Choix du serveur</h1>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <server />
+        <server />
+        <server />
+    </div>
 </template>
 
 <script>
-    export default {
-        
+import server from '../components/server.vue'
+
+export default {
+    components: {
+        server
     }
+}
 </script>
